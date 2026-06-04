@@ -1,5 +1,0 @@
-Olá, então, este captive portal foi desenvolvido com a intenção de estabelecer a conexão falsa para um shopping que fosse tão semelhante que fizesse com que as pessoas inserissem suas informações sem perceber que isso poderia ser um risco.
-
-Enfrentei algumas dificuldades ao longo do desenvolvimento do código, especialmente ao tentar criar um codigo inteiro sem poder dividir em arquivos separados para CSS ou JavaScript. Tive que condensar tudo em um único arquivo HTML. Outro desafio que encontrei foi a replicação do site de Login do Google, que tornou o processo muito mais complicado.
-
-No final, consegui completar o projeto, mas o resultado nunca foi exatamente o mesmo que o original. E se você prestar um pouco de atenção, facilmente notará que não deveria fornecer suas informações em um local assim.
