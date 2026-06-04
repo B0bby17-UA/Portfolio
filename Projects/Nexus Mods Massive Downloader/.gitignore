@@ -1,0 +1,15 @@
+# Chrome profile (contains login session)
+chrome_profile/
+
+# Download history
+.download_history.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded mods (uncomment if you don't want to commit them)
+# *.zip
+# *.rar
+# *.7z
