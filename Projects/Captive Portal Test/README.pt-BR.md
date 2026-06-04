@@ -4,7 +4,7 @@ Um captive portal falso de prova de conceito que replica uma página de login Wi
 
 ## Visão Geral
 
-Este projeto replica a aparência de um captive portal legítimo de Wi-Fi público — do tipo que você encontra em shoppings, aeroportos e hotéis. A página模仿a um fluxo de login do Google, guiando o usuário através de um formulário de dois passos (email → senha) que parece autêntico à primeira vista.
+Este projeto replica a aparência de um captive portal legítimo de Wi-Fi público — do tipo que você encontra em shoppings, aeroportos e hotéis. A página é um fluxo de login do Google, guiando o usuário através de um formulário de dois passos (email → senha) que parece autêntico à primeira vista.
 
 O objetivo é educacional: conscientizar sobre o quão convincentes as páginas de phishing podem ser e por que os usuários sempre devem verificar a URL antes de inserir informações sensíveis.
 
